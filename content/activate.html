@@ -1,0 +1,51 @@
++++
+title = "Activate"
++++
+
+<div class="form-container form-container-card">
+  <form class="send_message_form message form" name="activate" method="post" action="/" data-modal-id="modal-notify" data-netlify="true" netlify-honeypot="bot-field">
+    <div class="form-group">
+      <label class="hidden">
+        <input name="bot-field">
+        <input name="subject" value="Mark Gable Foundation Activation">
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <p>Your Name</p>
+        <input name="name" type="text" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <p>ID Card Number</p>
+        <input name="idcardnumber" type="text" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <p>E-mail</p>
+        <input name="email" type="email" required>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>
+        <p>Progeny Name</p>
+        <input name="progeny_name" type="text" required>
+      </label>
+    </div>
+    <br clear="both" />
+
+    <div class="form-group">
+      <label>
+        <p>
+          Please enter the serial number provided by the Progeny app.
+        </p>
+        <textarea name="message" required></textarea>
+      </label>
+    </div>
+    <fieldset>
+      <button type="submit" class="button">Activate</button>
+    </fieldset>
+  </form>
+</div>

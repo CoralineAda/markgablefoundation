@@ -5,6 +5,9 @@
     <title>{{ .Site.Title }}: {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   </head>
@@ -13,11 +16,9 @@
       <header>
         <figure>
           <a href="/">
-            <img class="logo" src="/images/oes-logo-color.png" alt="Organization for Ethical Source Logo">
+            <img class="logo" src="/images/logo.png" alt="The Mark Gable Foundation">
           </a>
-          <figcaption>
-            TODO displayed page title
-          </figcaption>
+          <h1>The Mark Gable Foundation</h1>
         </figure>
         {{ partial "navigation" . }}
       </header>
@@ -26,8 +27,9 @@
       {{ block "main" . }}
       {{ end }}
       <footer>
+        <h6>The Mark Gable Foundation: Shaping the Future, One Progeny at a Time.</h6>
         <p>
-          TODO is stewarded by the <a href="https://ethicalsource.dev">Organization for Ethical Source</a>.
+          &copy; Copyright {{ now.Format "2006" }} The Mark Gable Trust, LLC.
         </p>
       </footer>
     </div>
