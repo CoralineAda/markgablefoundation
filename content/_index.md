@@ -20,7 +20,7 @@ We understand that selecting the right families for our Progeny is crucial. Our 
 
 **Steps to Apply:**
 
-1. **Initial Inquiry:** Begin your journey by contacting us to express your interest and learn more about our program.
+1. **Initial Inquiry:** Begin your journey by [contacting us](/contact) to express your interest and learn more about our program.
 	 
 2. **Comprehensive Questionnaire:** Complete a detailed questionnaire that helps us understand your family's values, goals, and lifestyle.
 
@@ -34,7 +34,7 @@ We understand that selecting the right families for our Progeny is crucial. Our 
 
 At The Mark Gable Foundation, we are dedicated to excellence, innovation, and integrity. We strive to make a positive impact on society by shaping a new generation of extraordinary individuals. Join us in our mission to create a brighter future.
 
-**Contact Us**
+## Contact Us
 
-Ready to take the next step? Contact us today to learn more about our program and start your application process.
+Ready to take the next step? [Contact us today](/contact) to learn more about our program and start your application process.
 
